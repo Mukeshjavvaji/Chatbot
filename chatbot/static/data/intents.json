@@ -1,0 +1,103 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "greetings", "Hai"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thank you so much"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who is this?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can I assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "courses",
+    "patterns": ["I need to enroll in a new course", "how to enroll in a new course", "I want to enroll in a new course", "can you make me enroll in a course for me", "GITAM course enrolling"],
+    "responses": ["You can just easily create a new account and enroll in a course from our web site", "Just go to our web site and follow the guidelines to enroll in a new course"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service", "complaint"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "faculty",
+    "patterns": ["Get me the details of the CSE faculty", "CSE faculty", "Please provide the details of CSE faculty"],
+    "responses": ["Follow the link to get the details of the CSE faculty=https://vspgitcse.gitam.edu/Faculty"]
+    },
+    {"tag": "area",
+    "patterns": ["What is the area of the campus", "How many acres is the campus", "How much area does the campus cover", "area"],
+    "responses": ["The campus covers over 117 acres"]
+    },
+    {"tag": "departments",
+    "patterns": ["How many departments does GITAM University have", "How many departments does the university have in total", "number of departments", "how many schools are there in GITAM", "How many schools are there in the college", "departments"],
+    "responses": ["The institute consists of 12 departments in total"]
+    },
+    {"tag": "best_department",
+    "patterns": ["what is the best department in GITAM", "what is the best department in the university", "best department", "which one of the schools is the excellent school"],
+    "responses": ["The GITAM institute of technology is the best school in the campus"]
+    },
+    {"tag": "sports",
+    "patterns": ["Does GITAM encourage sports", "Does GITAM provide sports facility", "Does the college conduct sports competitions", "sports"],
+    "responses": ["GITAM provide sports facilities to the students. We also have a Director of Sports and many sports clubs conducting various different activities for the students."]
+    },
+    {"tag": "fee",
+     "patterns" : ["How much is the college tuition fee", "what is the tuition fee for the total study", "how much is the total cost of study", "fee", "tuition fee", "tuition"],
+    "responses": ["Here is the comprehensive list of the tuition fee of all the courses available=https://www.gitam.edu/fee-structure"]
+    },
+    {"tag": "transport",
+    "patterns": ["Does GITAM provide transport facility to the students", "GITAM transaport", "Does GITAM have bus facility", "Student commute", "does the university provide commuting facilities to the students", "transport", "commute"],
+    "responses": ["The college doesn't provide any transport facilities. However, the APSRTC buses are available which helps the students commute to the college"]
+    },
+    {"tag": "labs",
+    "patterns": ["Does the college have lab facilities", "can students experience the labs in the college", "Does the college provide lab facilities to learners", "labs", "GITAM labs"],
+    "responses": ["GITAM has many number of labs across all the departments available over the three campuses. Students conduct extensive research in these state-of-the-art labs facilities."]
+    },
+    {"tag": "clubs",
+    "patterns": ["Does the college have student clubs", "does the university provide student bodies", "does GITAM have clubs and chapters", "Does the college have chapters", "Clubs", "Student Bodies", "Chapters"],
+    "responses": ["There are many different clubs and chapters for the students. For more information regarding the clubs, visit=https://www.gitam.edu/student-clubs"]
+    },
+    {"tag": "accredition",
+    "patterns": ["Is GITAM accredited to any college", "Is the college accredited to Andhra University", "Is GITAM accredited to JNTU", "Accredition"],
+    "responses": ["GITAM is a Deemed to be University and is not accredited to any university"]    
+    },
+    {"tag": "library",
+    "patterns": ["GITAM library", "library", "Does GITAM have a library", "Does the college have libraries", "central Library", "What is KRC", "KRC"],
+    "responses": ["GITAM has a central library which is known as the Knowledge Resource Center. Moreover, each school have their own department libraries in their respective campus buildings."]
+    },
+    {"tag": "address", 
+    "patterns": ["Where is GITAM", "GITAM address", "What is the address of the GITAM", "address"],
+    "responses": ["GITAM's main campus is located in Rushionda, Visakhapatnam., PIN: 530045"]
+    }, 
+    {"tag": "campuses", 
+    "patterns": ["How many campuses does GITAM have", "GITAM campuses", "campuses"],
+    "responses": ["GITAM has three campuses located in Visakhapatnam, Hyderabad and Banglore"]
+    },
+    {"tag": "main_campus",
+    "patterns": ["Which is the main campus of GITAM", "GITAM main campus", "main campus", "Where is the main campus"],
+    "responses": ["The main campus of GITAM is located in Visakhapatnam"]
+    },
+    {"tag": "career",
+    "patterns": ["What career options does studeent have", "Career options", "Future course of student", "Career", "GITAM careers", "Student career"],
+    "responses": ["GITAM encourages students to follow their passion. Our college provide support to students for Jobs, Higher studies, competitive exams, business etc"]
+    },
+    {"tag": "hostel",
+    "patterns": ["Does GITAM provide housing facility", "GITAM Housing", "GITAM hostel", "Can students live on campus", "Does students have hostel facility", "Housing", "Hostel", "Student housing", "Student hostel", "Boys hostel", "Girls hostel", "On campus living"],
+    "responses": ["GITAM provides many student housing facilities independent to both men and women"]
+    },
+    {"tag": "dining",
+    "patterns": ["GITAM dining", "Dining facility", "Does GITAM has dining facility", "Can students dine on campus", "Dining", "GITAM food"],
+    "responses": ["GITAM provides many dining halls across the campus. Students can use their hungerbox subscription to dine at any hall"]
+    } 
+]
+}

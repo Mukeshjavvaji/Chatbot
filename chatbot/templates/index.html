@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <title>Message</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <div class="big-container">
+        <div class="new_container">
+            <div class="convos">
+                <h3>Conversations</h3><hr>
+                {% for i in conversations %}
+                <div class="convo" >
+                    <a href="{{ i }}">Conversation-{{ i }}</a>
+                </div><hr>
+                {% endfor %}
+            </div>
+            <div>
+                <form action="newconvo">
+                    <button type="submit" class="button-19">New Convo</button>
+                </form>
+            </div>
+        </div>
+        <div class="subcontainer">
+            <div class="container">
+                
+                {% for i in messages %}
+                        {% if i.0 == 'R' %}
+                            <div class="msg right">
+                                {{ i.1 }}
+                            </div>
+                        {% elif i.0 == 'B' %}
+                            <div class="msg left">
+                                <a href="{{ i.1 }}" target="_blank"><button class="button-19">click me</button></a>
+                            </div>
+                        {% else %}
+                        <div class="msg left">
+                            {{ i.1 }}
+                        </div>
+                        {% endif %} 
+                {% endfor %}
+            </div>
+            <form class="send-form" method="POST" action="{{conversation}}/send">
+                {% csrf_token %}
+                <input type="text" class="message" placeholder="type your message here" name="messagesent">
+                <button class="sendbtn button-19">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+R-how are you
+R-hello
+R-hai
+L-Hello
+R-I need information about CSE faculty
+L-Just go to our web site and follow the guidelines to enroll in a new course
+R-CSE faculty
+L-Follow the link to get the details of the CSE faculty 
+B-https://vspgitcse.gitam.edu/Faculty
+R-CSE faculty
+L-Follow the link to get the details of the CSE faculty 
+B-https://vspgitcse.gitam.edu/Faculty
+R-hello
+L-Hi there
+R-hello
+L-Hi there
+R-hai
+L-Hello
+R-CSE faculty
+L-Follow the link to get the details of the CSE faculty: https://vspgitcse.gitam.edu/Faculty
+R-hello
+L-Hi there
+R-CSE faculty
+L-Follow the link to get the details of the CSE faculty
+B-https://vspgitcse.gitam.edu/Faculty
+R-Hai there
+L-Hello
+R-who are you?
+L-I'm Joana, an Artificial Intelligent bot
+R-give me the information about CSE faculty
+L-Just go to our web site and follow the guidelines to enroll in a new course
+R-Can I know about CSE faculty
+L-Just go to our web site and follow the guidelines to enroll in a new course
