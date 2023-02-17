@@ -37,12 +37,12 @@
                             </div>
                         {% elif i.0 == 'B' %}
                             <div class="msg left">
-                                <a href="{{ i.1 }}" target="_blank"><button class="button-19">click me</button></a>
+                                <a href="{{ i.1 }}" target="_blank">{{ i.1 }}</a>
                             </div>
                         {% else %}
-                        <div class="msg left">
+                        <a class="fb_btn"><div class="msg left">
                             {{ i.1 }}
-                        </div>
+                        </div></a>
                         {% endif %} 
                 {% endfor %}
             </div>

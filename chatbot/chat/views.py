@@ -21,7 +21,6 @@ def get_context(ck):
         'conversation': ck,
         'conversations': range(1, int(n)+1)
     }
-    print(context)
     return context
 
 def index(request):
